@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Preguntas1Candidatos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/acceso" />
+
+            <TextView
+                android:id="@+id/textView1000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Encuesta de postura política"
+                android:textAlignment="center"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/textView100000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:text="La siguiente encuesta posee 20 preguntas, cada una de ellas posee 3 alternativas. Responde segun más representado te sientas con cada enunciado." />
+
+            <TextView
+                android:id="@+id/idInfo"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="ID del candidato"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/nameCandidate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="nombre del candidato"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 1"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Algunos individuos y medios de comunicación difunden con facilidad opiniones equivocadas con objetivos cuestionables"
+                android:justificationMode="inter_word"
+                android:textSize="18dp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="a. Debe prohibirse la difusión de opiniones equivocadas cuyo objetivo sea manipular y/o influir en los demás.\n\n b. Debe prohibirse la realización de apologías de ideologías extremas\n\n c. No debe haber censura de opiniones por parte del Estado en ningún caso"
+                android:justificationMode="inter_word"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18dp"
+                />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 2"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="La Iglesia realiza ciertas labores de carácter social. Por ello..."
+                android:justificationMode="inter_word"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a.El Estado debe contribuir a la financiación de la Iglesia, y tener en cuenta sus valores a la hora de legislar.\n\nb.	El Estado debe ser aconfesional, aunque puede contribuir a la financiación de la Iglesia para sostener su labor social en colegios concertados, centros de asistencia, entre otros...\n\nc. La Iglesia debe autofinanciarse, y estar en igualdad de condiciones con cualquier otra asociación. El Estado debe permanecer laico"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 3"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="La defensa del país corresponde a quienes prestan Servicio Militar en los ejércitos."
+                android:justificationMode="inter_word"
+                android:textSize="18sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a.El Servicio Militar debe ser obligatorio como forma de contribuir al bien común y/o a la formación de los jóvenes.
+\n\nb. El Servicio Militar debe ser voluntario. Es el mejor modo de tener un ejército profesional y preparado para defender nuestros intereses y compromisos en el exterior.
+\n\nc. El Servicio Militar debería ser voluntario en caso de existir ejército, y de ser así, su naturaleza debería limitarse a sus funciones más esenciales de defensa.
+"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 4"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Las relaciones sexuales entre adultos que consienten son un asunto de la esfera privada de las personas. Sin embargo..."
+                android:justificationMode="inter_word"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView444"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a.Conductas como la homosexualidad, la poligamia o la prostitución deben prohibirse o estar fuertemente controladas.
+\n\nb. La prostitución debe prohibirse o estar fuertemente controlada.
+\n\nc. Las leyes no deben entrometerse en las relaciones sexuales entre adultos que consientan, en ningún caso.
+"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 5"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Las drogas suponen un drama para muchas familias."
+                android:justificationMode="inter_word"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView555"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a. El Estado debería combatir el tráfico de drogas con más medios y de un modo más eficaz.
+\n\nb. El uso de algunas de las drogas prohibidas actualmente debería ser legal, aunque debería controlarse su distribución.
+\n\nc. Deberían legalizarse las drogas, despenalizando su uso y liberalizando su distribución.
+"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 6"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="La toma de medidas preventivas puede suponer una mejora de la seguridad ciudadana. Sin embargo, en muchos casos éstas chocan con algunos derechos individuales, como el derecho a la intimidad.."
+                android:justificationMode="inter_word"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView666"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a. La seguridad de todos está por encima de los derechos de uno solo; Las fuerzas de seguridad del Estado no deben ver su función entorpecida porque un posible criminal se ampare en sus derechos individuales.
+\n\nb. Las leyes y el poder judicial deben establecer en qué casos se puede anteponer el uso de medidas preventivas de seguridad a ciertos derechos individuales y en qué casos no.
+\n\nc. El Estado no debe vulnerar ningún derecho individual por motivos de seguridad.
+"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner6"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 7"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="En ciertas instituciones, grupos o profesiones, existe disparidad entre el número de hombres y mujeres, o entre distintas razas o grupos sociales."
+                android:justificationMode="inter_word"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView777"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a. Las cuotas obligatorias son el mejor instrumento para remediar las situaciones de discriminación histórica.
+\n\nb.Las ayudas para la integración o los beneficios fiscales a los grupos menos representados son el mejor instrumento para paliar la discriminación.
+\n\nc. Cualquier tipo de imposición o beneficio basado en criterios de sexo, raza o grupo social, viola el principio de igualdad ante la ley, y no debe ser impuesto por el Estado.
+"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner7"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 8"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Las fronteras se utilizan para controlar la inmigración."
+                android:justificationMode="inter_word"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView888"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a. Hay que limitar decididamente la entrada de nuevos inmigrantes y/o expulsar a aquellos que no se integren.
+\n\nb. El Estado debe regular la inmigración para permitir que los inmigrantes necesarios vengan de un modo legal.
+\n\nc.No debe haber diferencias de derechos en función del lugar de nacimiento o nacionalidad.
+"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner8"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 9"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="El Estado moderno suele ir aparejado al concepto de una nación."
+                android:justificationMode="inter_word"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView999"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a. El Estado debe promover el sentimiento patriótico y defender la identidad nacional, cultura e idioma que le son propios.
+\n\nb. El Estado debe proteger y/o promover la cultura y el idioma que son propios de su nación.
+\n\nc. El Estado no debe intervenir en cuestiones tan personales como la identidad o la cultura. Cada ciudadano debe tener la libertad de usar el idioma que considere.
+"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner9"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 10"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView1010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Una de las mayores amenazas para la civilización es el deterioro del Medio Ambiente."
+                android:justificationMode="inter_word"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView101010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a. Las leyes deben obligar a contaminar menos imponiendo estrictas limitaciones de contaminantes.
+\n\nb. Hay que promover las energías limpias mediante incentivos a aquellos que contaminen menos y cargas a los que contaminan más.
+\n\nc. Se contaminaría menos si se estableciesen responsabilidades claras y derechos de propiedad bien definidos con respecto a la contaminación.
+"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner10"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+            <Button
+                android:id="@+id/siguiente1Button"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:background="@color/naranjote"
+                android:text="Siguiente pregunta"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

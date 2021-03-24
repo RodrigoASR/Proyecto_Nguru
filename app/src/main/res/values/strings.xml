@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Nguru</string>
+    <string name="acceso_encuesta">Acceso Encuesta</string>
+    <string name="responde_la_encuesta_si_deseas_onocer_tu_postura_y_hacer_match_con_los_candidatos">Responde la encuesta si deseas onocer tu postura, y hacer match con los candidatos</string>
+    <string name="todo">TODO</string>
+</resources>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pregunta2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/emailTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textAlignment="center"
+                android:hint="Email"
+                android:textSize="18dp"/>
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 11"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="La importación de bienes del extranjero puede ser limitada por el Estado mediante diversos instrumentos, como los aranceles aduaneros, las prohibiciones, o ciertas regulaciones"
+                android:justificationMode="inter_word"
+                android:textSize="18dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="a.   El Estado debe limitar la entrada de productos de otros países para favorecer a los productores nacionales.
+\n\nb.	El Estado debe limitar la entrada de productos del tercer mundo, ya que se producen con mano de obra barata.
+\n\nc.	  El Estado no debe limitar el comercio internacional. Éste debe ser libre y los aranceles deben reducirse o eliminarse.
+"
+                android:justificationMode="inter_word"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner11"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18sp"
+                />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 12"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Los impuestos son necesarios para sufragar los gastos del Estado."
+                android:justificationMode="inter_word"
+                android:textSize="18dp"   />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a. Los ricos deberían pagar más impuestos para aumentar las prestaciones y servicios del Estado.
+\n\nb.	Los impuestos no deberían subir. Deben ser los justos y necesarios para sufragar los gastos del Estado.
+\n\nc.	Los impuestos deberían reducirse, aunque para ello haya que recortar algunas prestaciones y servicios del Estado.
+"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner12"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 13"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Las pensiones para la jubilación garantizan el bienestar cuando se llega a la tercera edad"
+                android:justificationMode="inter_word"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a.a.	Las pensiones de jubilación deben ser gestionadas por el Estado con un sistema público de contribuciones obligatorias (Seguridad Social).
+\n\nb.	Las pensiones de jubilación deben estar garantizadas por el Estado, con algún tipo de modelo mixto que pueda conjugar un sistema público y planes privados.
+\n\nc.	Las pensiones de jubilación son un asunto de ahorro y planificación individual. El Estado no debe exigir contribuciones obligatorias a un sistema público.
+"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner13"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 14"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Los pobres y necesitados dependen de la solidaridad del resto de la sociedad."
+                android:justificationMode="inter_word"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView444"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a.	El Estado debe encargarse de eliminar o reducir la desigualdad y la pobreza en la sociedad.
+\n\nb.	El Estado debe gestionar la ayuda y asistencia adecuada a los necesitados, independientemente de que las instituciones privadas de caridad puedan complementarla voluntariamente.
+\n\nc.	Las instituciones privadas de caridad deben ser las principales canalizadoras de la solidaridad de la sociedad.
+"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner14"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 15"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Algunas profesiones requieren una cierta cualificación para ejercerlas."
+                android:justificationMode="inter_word"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView555"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a.	Los sectores profesionales tienen que estar regulados por las leyes. El ejercicio de las profesiones cualificadas debe requerir de las oportunas licencias y permisos otorgadas en cada caso por el órgano competente del Estado.
+\n\nb.	Los sectores profesionales deben estar regulados por organismos independientes, como los colegios profesionales. Los profesionales cualificados deben colegiarse en ellos, ya que su supervisión garantiza la calidad de sus servicios.
+\n\nc.	Las licencias, permisos y colegios profesionales son trabas innecesarias. El ejercicio de cualquier profesión debe ser libre para cualquier persona cualificada.
+"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner15"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 16"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Los sindicatos representan los intereses de los trabajadores"
+                android:justificationMode="inter_word"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView666"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a.	Los sindicatos son esenciales para proteger los derechos de los trabajadores. El Estado debe proveerles financiación y atribuirles funciones especiales en la legislación laboral.
+\n\nb.	Los sindicatos, como representantes de los trabajadores, deben contar con ciertas funciones especiales en la legislación laboral, pero no deben ser financiados por el Estado.
+\n\nc.	Los sindicatos deben regirse por las normas aplicables a cualquier otra asociación, y no recibir financiación pública o atribuírseles funciones especiales.
+"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner16"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 17"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="La cobertura médica es una necesidad eventual para todas las personas."
+                android:justificationMode="inter_word"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView777"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a.	El Estado debe gestionar centros médicos de carácter público, y financiarlos mediante contribuciones a un seguro médico público de carácter obligatorio (Seguridad Social).
+\n\nb.	El Estado debe garantizar el acceso universal a la sanidad mediante centros con algún tipo de financiación pública, sean gestionados o no por el Estado.
+\n\nc.	Gestionar centros médicos no debe ser una función del Estado. Los centros médicos deben ser privados, y los ciudadanos ser libres de contratar el seguro médico que prefieran.
+"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner17"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 18"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="El Banco Central y el sistema bancario, formado por los bancos comerciales, son los que ponen en circulación el dinero de curso legal."
+                android:justificationMode="inter_word"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView888"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a.	Tanto el Banco Central como los bancos comerciales deben ser públicos y atender a las necesidades sociales.
+\n\nb.	El Banco Central tiene una función esencial regulando la economía, por lo que debe ser independiente y supervisar a los bancos comerciales.
+\n\nc.	El Banco Central debería reducir sus competencias, y los bancos comerciales ser todos de carácter privado.
+"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner18"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 19"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Los grandes comercios y empresas multinacionales tienen ciertas ventajas competitivas frente al pequeño comercio tradicional"
+                android:justificationMode="inter_word"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView999"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a.	Algunas Grandes Empresas tienen prácticas de competencia abusivas. Deberían imponérseles condiciones más restrictivas de funcionamiento, o cerrarse.
+\n\nb.	Se deben corregir algunas ventajas competitivas de las Grandes Empresas, regulando ciertas materias como sus horarios y días de apertura, o el descuento máximo que pueden aplicar.
+\n\nc.	Las Grandes Empresas son empresas como cualquier otra. Tienen derecho a competir libremente en el mercado, sin restricciones en sus horarios o precios.
+"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner19"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pregunta N° 20"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView1010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Los contratos laborales vinculan a empresarios y trabajadores en sus obligaciones"
+                android:justificationMode="inter_word"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView101010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:justificationMode="inter_word"
+                android:text="a.	La legislación sobre contratos laborales debería restringir más el despido, así como limitar más el empleo precario y garantizar una mayor protección al trabajador.
+\n\nb.	La legislación sobre contratos laborales debe siempre mantener una protección especial al trabajador, protegiéndole frente al despido y el empleo precario.
+\n\nc.	Los contratos laborales deben gozar de más libertad de cláusulas entre las partes. La legislación debería interferir menos en materias puramente contractuales, como su duración o causas de rescisión.
+"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/alternativasSpinner20"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="18dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+            <Button
+                android:id="@+id/siguiente2Button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/naranjote"
+                android:text="Terminar Encuesta"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

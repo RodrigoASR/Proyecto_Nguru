@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628371599533",
+    "project_id": "nguru-bc5fe",
+    "storage_bucket": "nguru-bc5fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628371599533:android:2c050ccdc272ca0bf1d624",
+        "android_client_info": {
+          "package_name": "com.example.nguru_"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628371599533-aab5i8spudb07rmfmse4chmm91drbq51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvqSVt57XkU4UnZL1RJxdABZ1yCZRfIOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628371599533-aab5i8spudb07rmfmse4chmm91drbq51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

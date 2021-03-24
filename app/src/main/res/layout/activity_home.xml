@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="190dp"
+                    android:layout_height="182dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/acceso" />
+
+                <EditText
+                    android:id="@+id/emailText"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/pass1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:hint="Contraseña"
+                    android:inputType="textPassword"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/pass2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:hint="repite tu contraseña"
+                    android:inputType="textPassword"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/nombreEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Nombre"
+                    android:textSize="16dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp" />
+
+                <EditText
+                    android:id="@+id/EditTextApellido"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Apellidos"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/edadText"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:hint="Edad"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:inputType="number" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp">
+
+                    <TextView
+                        android:id="@+id/generoText"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="24dp"
+                        android:hint="Genero    "
+                        android:textAlignment="center"
+                        android:textSize="18sp" />
+
+
+
+                    <Spinner
+                        android:id="@+id/generoSpinner"
+                        android:layout_width="213dp"
+                        android:layout_height="40dp"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:id="@+id/regionText"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="Región"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/regionSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:id="@+id/comunaText"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="Comuna"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/comunaSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="275dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_weight="1"
+                        android:text="Distrito:"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/distritoText"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="24dp"
+                        android:hint="Distrito"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </LinearLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/provincial1"
+                        android:layout_width="275dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_weight="1"
+                        android:text="Circunscripción:"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/provincial"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="24dp"
+                        android:hint="circunscripcion"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="18dp"
+                    android:text="Acepto las condiciones de Nguru" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <Button
+                    android:id="@+id/aceptButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/naranjote"
+                    android:text="Acepto Condiciones"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/logOutButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@color/naranjote"
+                    android:text="Cerrar Sesión"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

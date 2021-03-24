@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="regiones">
+        <item>Arica</item>
+        <item>Tarapaca</item>
+        <item>Antofagasta</item>
+        <item>Atacama</item>
+        <item>Coquimbo</item>
+        <item>Valparaiso</item>
+        <item>Región Metropolitana</item>
+        <item>Libertador Bernado OHiggins</item>
+        <item>Maule</item>
+        <item>Ñuble</item>
+        <item>BioBío</item>
+        <item>La Araucania</item>
+        <item>Los Rios</item>
+        <item>Los Lagos</item>
+        <item>Aisen</item>
+        <item>Magallanes y Antartica Chilena</item>
+        <item>Extranjero</item>
+    </string-array>
+
+    <string-array name="arica">
+        <item>Arica</item>
+        <item>Camarones</item>
+        <item>General Lagos</item>
+        <item>Putre</item>
+    </string-array>
+
+    <string-array name="tarapaca">
+        <item>Alto Hospicio</item>
+        <item>Iquique</item>
+        <item>Camiña</item>
+        <item>Colchane</item>
+        <item>Huara</item>
+        <item>Pica</item>
+        <item>Pozo al Monte</item>
+    </string-array>
+
+    <string-array name="antofagasta">
+        <item>Antofagasta</item>
+        <item>Mejillones</item>
+        <item>Sierra Gorda</item>
+        <item>Taltal</item>
+        <item>Calama</item>
+        <item>Ollague</item>
+        <item>San Pedro de Atacama</item>
+        <item>Maria Elena</item>
+        <item>Tocopilla</item>
+    </string-array>
+
+    <string-array name="Atacama">
+        <item>Chañaral</item>
+        <item>Diego de Almagro</item>
+        <item>Caldera</item>
+        <item>Copiapo</item>
+        <item>Tierra Amarilla</item>
+        <item>Alto del Carmen</item>
+        <item>Freirina</item>
+        <item>Huasco</item>
+        <item>Vallenar</item>
+    </string-array>
+
+    <string-array name="Coquimbo">
+        <item>Canela</item>
+        <item>Illapel</item>
+        <item>Los Vilos</item>
+        <item>Salamanca</item>
+        <item>Andacollo</item>
+        <item>Coquimbo</item>
+        <item>La Higuera</item>
+        <item>La Serena</item>
+        <item>Paiguano</item>
+        <item>Vicuña</item>
+        <item>Combarbala</item>
+        <item>Monte Patria</item>
+        <item>Ovalle</item>
+        <item>Punitaqui</item>
+        <item>Rio Hurtado</item>
+    </string-array>
+
+    <string-array name="Valparaiso">
+        <item>Calle Larga</item>
+        <item>Los Andes</item>
+        <item>Rinconada</item>
+        <item>San Esteban</item>
+        <item>Limache</item>
+        <item>Olmue</item>
+        <item>Quilpue</item>
+        <item>Villa Alemana</item>
+        <item>Cabildo</item>
+        <item>La Ligua</item>
+        <item>Papudo</item>
+        <item>Petorca</item>
+        <item>Zapallar</item>
+        <item>Calera</item>
+        <item>Hijuelas</item>
+        <item>La Cruz</item>
+        <item>Nogales</item>
+        <item>Quillota</item>
+        <item>Catemu</item>
+        <item>LlayLlay</item>
+        <item>Panquehue</item>
+        <item>Putaendo</item>
+        <item>San Felipe</item>
+        <item>Santa Maria</item>
+        <item>Puchuncavi</item>
+        <item>Quintero</item>
+        <item>Isla de Pascua</item>
+        <item>Algarrobo</item>
+        <item>Cartagena</item>
+        <item>El quisco</item>
+        <item>El Tabo</item>
+        <item>San Antonio</item>
+        <item>Santo Domingo</item>
+        <item>Concon</item>
+        <item>Viña del Mar</item>
+        <item>Casa Blanca</item>
+        <item>Juan Fernandez</item>
+        <item>Valparaiso</item>
+    </string-array>
+
+    <string-array name="Metropolitana">
+        <item>Colina</item>
+        <item>Lampa</item>
+        <item>Tiltil</item>
+        <item>Pudahuel</item>
+        <item>Quilicura</item>
+        <item>Cerrillos</item>
+        <item>Estacion Central</item>
+        <item>Maipu</item>
+        <item>Conchali</item>
+        <item>Huechuraba</item>
+        <item>Renca</item>
+        <item>Cerro Navia</item>
+        <item>Independencia</item>
+        <item>Lo Prado</item>
+        <item>Quinta Normal</item>
+        <item>Recoleta</item>
+        <item>Santiago</item>
+        <item>Ñuñoa</item>
+        <item>Providencia</item>
+        <item>La Granja</item>
+        <item>Macul</item>
+        <item>San Joaquin</item>
+        <item>La Reina</item>
+        <item>Las Condes</item>
+        <item>Lo Barnechea</item>
+        <item>Vitacura</item>
+        <item>Peñalolen</item>
+        <item>Pirque</item>
+        <item>Puente Alto</item>
+        <item>San Jose de Maipo</item>
+        <item>La Florida</item>
+        <item>La Pintana</item>
+        <item>El Bosque</item>
+        <item>La Cisterna</item>
+        <item>Lo Espejo</item>
+        <item>Pedro Aguirre Cerda</item>
+        <item>San Miguel</item>
+        <item>San Ramon</item>
+        <item>Buin</item>
+        <item>Calera de Tango</item>
+        <item>Paine</item>
+        <item>San Bernanrdo</item>
+        <item>Alhue</item>
+        <item>Curacavi</item>
+        <item>Maria Pinto</item>
+        <item>Melipilla</item>
+        <item>San Pedro</item>
+        <item>El Monte</item>
+        <item>Isla de Maipo</item>
+        <item>Padre Hurtado</item>
+        <item>Peñaflor</item>
+        <item>Talagante</item>
+    </string-array>
+
+    <string-array name="Libertador">
+        <item>Rancagua</item>
+        <item>Codegua</item>
+        <item>Coinco</item>
+        <item>Coltauco</item>
+        <item>Doñihue</item>
+        <item>Graneros</item>
+        <item>Machali</item>
+        <item>Malloa</item>
+        <item>Mostazal</item>
+        <item>Olivar</item>
+        <item>Quinta de Tilcoco</item>
+        <item>Rengo</item>
+        <item>Requinoa</item>
+        <item>Las Cabras</item>
+        <item>Peumo</item>
+        <item>Pichidehua</item>
+        <item>San Vicente</item>
+        <item>Litueche</item>
+        <item>Marchigue</item>
+        <item>Navidad</item>
+        <item>Peredones</item>
+        <item>Pichilemu</item>
+        <item>Chepica</item>
+        <item>Chimbarongo</item>
+        <item>Lolol</item>
+        <item>Nancagua</item>
+        <item>Palmilla</item>
+        <item>Peralillo</item>
+        <item>Placilla</item>
+        <item>Pumanque</item>
+        <item>San Fernando</item>
+        <item>Santa Cruz</item>
+    </string-array>
+
+    <string-array name="maule">
+        <item>Curico</item>
+        <item>Hualañe</item>
+        <item>Licanten</item>
+        <item>Molina</item>
+        <item>Rauco</item>
+        <item>Romeral</item>
+        <item>Sagrada Familia</item>
+        <item>Teno</item>
+        <item>Vichuquen</item>
+        <item>Constitución</item>
+        <item>Curepto</item>
+        <item>Empedrado</item>
+        <item>Maule</item>
+        <item>Pelarco</item>
+        <item>Pencahue</item>
+        <item>Rio Claro</item>
+        <item>San Clemente</item>
+        <item>San Rafael</item>
+        <item>Talca</item>
+        <item>Cahuquenes</item>
+        <item>Chanco</item>
+        <item>Pelluhue</item>
+        <item>Calbun</item>
+        <item>Linares</item>
+        <item>Longavi</item>
+        <item>Parral</item>
+        <item>Retiro</item>
+        <item>San Javier</item>
+        <item>Villa Alegre</item>
+        <item>Yerbas Buenas</item>
+    </string-array>
+
+    <string-array name="nuble">
+        <item>Bulnes</item>
+        <item>Chillan</item>
+        <item>Chillan Viejo</item>
+        <item>El Carmen</item>
+        <item>Peumo</item>
+        <item>Quinto</item>
+        <item>Quillon</item>
+        <item>San Ignacio</item>
+        <item>Yungay</item>
+        <item>Cobquecura</item>
+        <item>Coelemu</item>
+        <item>Ninhue</item>
+        <item>Portezuelo</item>
+        <item>Quirihue</item>
+        <item>Ranquil</item>
+        <item>Trehuaco</item>
+        <item>Coihueco</item>
+        <item>Ñiquen</item>
+        <item>San Carlos</item>
+        <item>San Fabian</item>
+        <item>San Nicolas</item>
+    </string-array>
+
+    <string-array name="biobio">
+        <item>Hualpen</item>
+        <item>Penco</item>
+        <item>Talcahuano</item>
+        <item>Tome</item>
+        <item>Chiguayante</item>
+        <item>Concepcion</item>
+        <item>Florida</item>
+        <item>Coronel</item>
+        <item>Hualqui</item>
+        <item>San Pedro de la Paz</item>
+        <item>Santa Juana</item>
+        <item>Arauco</item>
+        <item>Cañete</item>
+        <item>Contulmo</item>
+        <item>Curanilahue</item>
+        <item>Lebu</item>
+        <item>Los Alamos</item>
+        <item>Tirua</item>
+        <item>Alto BioBio</item>
+        <item>Antuco</item>
+        <item>Cabrero</item>
+        <item>Laja</item>
+        <item>Los Angeles</item>
+        <item>Mulchen</item>
+        <item>Nacimiento</item>
+        <item>Negrete</item>
+        <item>Quilaco</item>
+        <item>Quilleco</item>
+        <item>San Rosendo</item>
+        <item>Santa Barbara</item>
+        <item>Tucapel</item>
+        <item>Yumbel</item>
+        <item>Lota</item>
+    </string-array>
+
+    <string-array name="araucania">
+        <item>Galvarino</item>
+        <item>Lautaro</item>
+        <item>Melipeuco</item>
+        <item>Perquenco</item>
+        <item>Vilcun</item>
+        <item>Angol</item>
+        <item>Collipulli</item>
+        <item>Curacautin</item>
+        <item>Ercilla</item>
+        <item>Lonquimay</item>
+        <item>Los Sauces</item>
+        <item>Lumaco</item>
+        <item>Puren</item>
+        <item>Renaico</item>
+        <item>Traiguen</item>
+        <item>Victoria</item>
+        <item>Padre las Casas</item>
+        <item>Temuco</item>
+        <item>Curahue</item>
+        <item>Cholchol</item>
+        <item>Cunco</item>
+        <item>Curarrehue</item>
+        <item>Freire</item>
+        <item>Gorbea</item>
+        <item>Loncoche</item>
+        <item>Nueva Imperial</item>
+        <item>Pitrufquen</item>
+        <item>Pucon</item>
+        <item>Saavedra</item>
+        <item>Teodoro Schmidt</item>
+        <item>Toltel</item>
+        <item>Villarrica</item>
+    </string-array>
+
+    <string-array name="rios">
+        <item>Futrono</item>
+        <item>La Union</item>
+        <item>Lago Ranco</item>
+        <item>Rio Bueno</item>
+        <item>Corral</item>
+        <item>Lanco</item>
+        <item>Los Lagos</item>
+        <item>Mafil</item>
+        <item>Mariquina</item>
+        <item>Paillaco</item>
+        <item>Panguipulli</item>
+        <item>Valdivia</item>
+    </string-array>
+
+    <string-array name="lagos">
+        <item>Fresia</item>
+        <item>Frutillar</item>
+        <item>Llanquihue</item>
+        <item>Los Muermos</item>
+        <item>Puerto Varas</item>
+        <item>Osorno</item>
+        <item>Puerto Ocatay</item>
+        <item>Purranque</item>
+        <item>Puyehue</item>
+        <item>Rio Negro</item>
+        <item>San Juan de la Costa</item>
+        <item>San Pablo</item>
+        <item>Ancud</item>
+        <item>Castro</item>
+        <item>Chonchi</item>
+        <item>Curaco de Velez</item>
+        <item>Dalcahue</item>
+        <item>Puqueldon</item>
+        <item>Queilen</item>
+        <item>Quellon</item>
+        <item>Quemchi</item>
+        <item>Quinchao</item>
+        <item>Calbuco</item>
+        <item>Cochamo</item>
+        <item>Maullin</item>
+        <item>Puerto Montt</item>
+        <item>Chaiten</item>
+        <item>Futaleufu</item>
+        <item>Hualaihue</item>
+        <item>Palena</item>
+    </string-array>
+
+    <string-array name="aisen">
+        <item>Aysen</item>
+        <item>Cisnes</item>
+        <item>Guaitecas</item>
+        <item>Cochrane</item>
+        <item>Ohiggins</item>
+        <item>Tortel</item>
+        <item>Coyhaique</item>
+        <item>Lago Verde</item>
+        <item>Chile Chico</item>
+        <item>Rio Ibanez</item>
+    </string-array>
+
+    <string-array name="magallanes">
+        <item>Antartica</item>
+        <item>Cabo de Hornos (Ex Navarino)</item>
+        <item>Laguna Blanca</item>
+        <item>Punta Arenas</item>
+        <item>Rio Verde</item>
+        <item>San Gregorio</item>
+        <item>Porvenir</item>
+        <item>Primavera</item>
+        <item>Timaukel</item>
+        <item>Natales</item>
+        <item>Torres del Paine</item>
+    </string-array>
+
+    <string-array name="extra">
+        <item>Africa</item>
+        <item>Oceania</item>
+        <item>America Central</item>
+        <item>America del Norte</item>
+        <item>America del Sur</item>
+        <item>Asia</item>
+        <item>Europa</item>
+    </string-array>
+
+
+
+    <string-array name="genero">
+        <item>Mujer</item>
+        <item>Hombre</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="alternativas">
+        <item>Selecciona aquí una alternativa</item>
+        <item>Alternativa A</item>
+        <item>Alternativa B</item>
+        <item>Alternativa C</item>
+    </string-array>
+
+    <string-array name="estudios">
+        <item>Indique nivel de estudio</item>
+        <item>Sin Estudios</item>
+        <item>Básica</item>
+        <item>Media</item>
+        <item>Pregrado</item>
+        <item>Magister</item>
+        <item>Doctorado</item>
+    </string-array>
+
+    <string-array name="religion">
+        <item>Seleccione Religión</item>
+        <item>Católica</item>
+        <item>Evangélica</item>
+        <item>Testigo de Jehová</item>
+        <item>Mormones</item>
+        <item>Agnóstico</item>
+        <item>Ateo</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="practica">
+        <item>Indique si es practicante</item>
+        <item>Creyente Practicante</item>
+        <item>Creyente No Practicante</item>
+    </string-array>
+
+    <string-array name="transporte">
+        <item>indique medio de transporte</item>
+        <item>auto</item>
+        <item>Transporte Público</item>
+        <item>Bicicleta</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="personajes">
+        <item>Seleccione un personajes historico</item>
+        <item>Augusto Pinochet</item>
+        <item>Fidel Castro</item>
+        <item>Margaret Thatcher</item>
+        <item>Gladys Marin</item>
+        <item>Milton Friedman</item>
+        <item>Barack Obama</item>
+        <item>Vladímir Putin</item>
+        <item>Xi Jinping</item>
+        <item>Jair Bolsonaro</item>
+        <item>Salvador Allende</item>
+        <item>Stephen Hawking</item>
+        <item>Lenka Franulic</item>
+        <item>Donald Trump</item>
+        <item>Greta Thunberg</item>
+        <item>Albert Einstein</item>
+        <item>Jacinda Ardern</item>
+        <item>Pepe Mujica</item>
+        <item>Arnold Harberger</item>
+        <item>Michelle Bachelet</item>
+        <item>Jaime Guzmán Errázuriz</item>
+        <item>Amanda Labarca</item>
+        <item>Martín Luther King</item>
+        <item>Emmeline Pankhurst</item>
+        <item>Elena Caffarena</item>
+        <item>Juan Guzmán Tapia</item>
+        <item>Angela Merkel</item>
+        <item>Ernesto Che Guevara</item>
+        <item>Marie Curie</item>
+        <item>Sarah McBride</item>
+        <item>Padre Mariano Puga</item>
+        <item>cardenal Raúl Silva Henríquez</item>
+        <item>Jesús</item>
+        <item>Virgen Maria</item>
+        <item>Mahatma Gandhi</item>
+        <item>Buda</item>
+    </string-array>
+
+    <string-array name="posicion">
+        <item>Seleccones una opción</item>
+        <item>De Acuerdo</item>
+        <item>En Desacuerdo</item>
+    </string-array>
+</resources>
